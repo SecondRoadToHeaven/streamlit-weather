@@ -276,8 +276,6 @@ if uploaded_file is not None:
             st.dataframe(seasonal_display, use_container_width=True)
 else:
     st.info("Начало работы\n\n"
-            "1. Сгенерируйте файл данных с помощью команды:\n"
-            "   python generate_data.py\n\n"
-            "2. Загрузите файл temperature_data.csv через боковую панель\n\n"
-            "3. Введите API ключ OpenWeatherMap\n\n"
-            "4. Выберите город для анализа\n\n")
+            "1. Загрузите файл temperature_data.csv через боковую панель\n\n"
+            "2. Введите API ключ OpenWeatherMap\n\n"
+            "3. Выберите город для анализа\n\n")
